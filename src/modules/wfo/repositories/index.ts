@@ -1,4 +1,4 @@
-import { dbClient } from 'src/modules/database/client';
+import { dbClient } from '../../database/client';
 
 import { WfoRepository } from './implementations/WfoRepository';
 
