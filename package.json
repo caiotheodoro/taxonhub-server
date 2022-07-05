@@ -1,6 +1,10 @@
 {
   "name": "taxonhub_2022",
   "version": "1.0.0",
+  "node": {
+    "version": ">=15.0.0",
+    "engine": ">=15.0.0"
+  },
   "main": "index.js",
   "repository": "https://github.com/caiotheodoro/taxonhub_2022",
   "author": "matheusht <matheustheodoro3112@gmail.com>",
