@@ -17,10 +17,10 @@ const csv_parser_1 = __importDefault(require("csv-parser"));
 const fs_1 = __importDefault(require("fs"));
 const get_stream_1 = __importDefault(require("get-stream"));
 const objects_to_csv_1 = __importDefault(require("objects-to-csv"));
-const constants_1 = require("src/modules/config/constants");
-const defaultResponse_1 = require("src/modules/http/defaultResponse");
-const httpStatus_1 = require("src/modules/http/httpStatus");
-const types_1 = require("src/modules/wfo/enumerators/types");
+const constants_1 = require("../../../config/constants");
+const defaultResponse_1 = require("../../../http/defaultResponse");
+const httpStatus_1 = require("../../../http/httpStatus");
+const types_1 = require("../../../wfo/enumerators/types");
 const headers = ['binomialName'];
 class GenerateCSVUseCase {
     constructor(getTaxonomyByNameUseCase, wfoRepository) {

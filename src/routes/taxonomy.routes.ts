@@ -1,6 +1,6 @@
 import { Router } from 'express';
-import { FILES_FOLDER } from 'src/modules/config/constants';
-import { generateCSVController } from 'src/modules/taxonomy/useCases/generateCSV';
+import { FILES_FOLDER } from '../../../config/constants';
+import { generateCSVController } from '../../../taxonomy/useCases/generateCSV';
 
 const taxonomyRoutes = Router();
 

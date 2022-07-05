@@ -1,4 +1,4 @@
-import { wfoRepository } from 'src/modules/wfo/repositories';
+import { wfoRepository } from '../../../wfo/repositories';
 
 import { TaxonomyRepository } from '../../repositories/implementations/TaxonomyRepository';
 import { GetTaxonomyByNameController } from './getTaxonomyByNameController';

@@ -1,5 +1,5 @@
 import { Request, Response } from 'express';
-import { DefaultResponse } from 'src/modules/http/defaultResponse';
+import { DefaultResponse } from '../../../http/defaultResponse';
 
 import { GetVersionUseCase } from './getVersionUseCase';
 

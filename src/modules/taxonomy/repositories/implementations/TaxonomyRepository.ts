@@ -1,5 +1,5 @@
-import { IRecord } from 'src/modules/model/WFORecord';
-import { WfoRepository } from 'src/modules/wfo/repositories/implementations/WfoRepository';
+import { IRecord } from '../../../model/WFORecord';
+import { WfoRepository } from '../../../wfo/repositories/implementations/WfoRepository';
 
 import { ITaxonomyRepository } from '../ITaxonomyRepository';
 

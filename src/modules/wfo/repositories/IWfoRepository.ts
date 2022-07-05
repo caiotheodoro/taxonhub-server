@@ -1,5 +1,5 @@
 import { meta } from '@prisma/client';
-import { IRecord } from 'src/modules/model/WFORecord';
+import { IRecord } from '../../../model/WFORecord';
 
 interface IWfoRepository {
     getSavedVersion(): Promise<string>;

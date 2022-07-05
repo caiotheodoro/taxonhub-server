@@ -14,11 +14,11 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.GetTaxonomyByNameUseCase = void 0;
 const puppeteer_1 = __importDefault(require("puppeteer"));
-const TaxonomyException_1 = require("src/modules/exception/TaxonomyException");
-const defaultResponse_1 = require("src/modules/http/defaultResponse");
-const httpStatus_1 = require("src/modules/http/httpStatus");
-const types_1 = require("src/modules/model/enumerators/types");
-const Taxonomy_1 = require("src/modules/model/Taxonomy");
+const TaxonomyException_1 = require("../../../exception/TaxonomyException");
+const defaultResponse_1 = require("../../../http/defaultResponse");
+const httpStatus_1 = require("../../../http/httpStatus");
+const types_1 = require("../../../model/enumerators/types");
+const Taxonomy_1 = require("../../../model/Taxonomy");
 var ENameType;
 (function (ENameType) {
     ENameType["accepted"] = "accepted";

@@ -1,5 +1,5 @@
 
-import { TaxonomyModel } from 'src/modules/model/Taxonomy';
+import { TaxonomyModel } from '../../../model/Taxonomy';
 import { ITaxonomyRepository } from '../../repositories/ITaxonomyRepository';
 import { IImportCSV } from '../importLocalCSV/importLocalCSVUseCase';
 

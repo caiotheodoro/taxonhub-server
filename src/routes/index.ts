@@ -1,7 +1,7 @@
 import { Router } from 'express';
 import multer from 'multer';
-import { FILES_FOLDER } from 'src/modules/config/constants';
-import { importBinomialNameCSVController } from 'src/modules/taxonomy/useCases/importBinomialNameCSV';
+import { FILES_FOLDER } from '../../../config/constants';
+import { importBinomialNameCSVController } from '../../../taxonomy/useCases/importBinomialNameCSV';
 
 import { ocurrencyRoutes } from './occurrency.routes';
 import { taxonomyRoutes } from './taxonomy.routes';
