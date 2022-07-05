@@ -1,0 +1,12 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.getTaxonomyByNameController = exports.getTaxonomyByNameUseCase = void 0;
+const repositories_1 = require("src/modules/wfo/repositories");
+const TaxonomyRepository_1 = require("../../repositories/implementations/TaxonomyRepository");
+const getTaxonomyByNameController_1 = require("./getTaxonomyByNameController");
+const getTaxonomyByNameUseCase_1 = require("./getTaxonomyByNameUseCase");
+const taxonomyRepository = new TaxonomyRepository_1.TaxonomyRepository(repositories_1.wfoRepository);
+const getTaxonomyByNameUseCase = new getTaxonomyByNameUseCase_1.GetTaxonomyByNameUseCase(taxonomyRepository);
+exports.getTaxonomyByNameUseCase = getTaxonomyByNameUseCase;
+const getTaxonomyByNameController = new getTaxonomyByNameController_1.GetTaxonomyByNameController(getTaxonomyByNameUseCase);
+exports.getTaxonomyByNameController = getTaxonomyByNameController;

@@ -1,0 +1,11 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.generateCSVController = exports.generateCSVUseCase = void 0;
+const repositories_1 = require("src/modules/wfo/repositories");
+const getTaxonomy_1 = require("../getTaxonomy");
+const generateCSVController_1 = require("./generateCSVController");
+const generateCSVUseCase_1 = require("./generateCSVUseCase");
+const generateCSVUseCase = new generateCSVUseCase_1.GenerateCSVUseCase(getTaxonomy_1.getTaxonomyByNameUseCase, repositories_1.wfoRepository);
+exports.generateCSVUseCase = generateCSVUseCase;
+const generateCSVController = new generateCSVController_1.GenerateCSVController(generateCSVUseCase);
+exports.generateCSVController = generateCSVController;

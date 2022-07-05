@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.getVersionController = exports.getVersionUseCase = void 0;
+const repositories_1 = require("../../repositories");
+const getVersionController_1 = require("./getVersionController");
+const getVersionUseCase_1 = require("./getVersionUseCase");
+const getVersionUseCase = new getVersionUseCase_1.GetVersionUseCase(repositories_1.wfoRepository);
+exports.getVersionUseCase = getVersionUseCase;
+const getVersionController = new getVersionController_1.GetVersionController(getVersionUseCase);
+exports.getVersionController = getVersionController;
