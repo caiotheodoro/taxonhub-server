@@ -7,7 +7,6 @@ import { checkVersionAndUpdate } from './modules/routines/checkVersionAndUpdate'
 import { router } from './routes';
 
 const app = express();
-const port = process.env.PORT || 3333;
 
 app.use(express.json());
 app.use(cors());
@@ -17,8 +16,8 @@ app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerDocument));
 
 app.get('/', (_, res) => res.send('API UP'));
 
-app.listen(port, () => {
-    console.log(`Server running on port ${port}`);
+app.listen(process.env.PORT || 3333, () => {
+    console.log(`Server running on port ${process.env.PORT || 3333}`);
 
     //wfoRepository.updateDatabasePhaseStatus(EMetaTableValues.needToCheck);
 
