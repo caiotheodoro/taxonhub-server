@@ -4,8 +4,6 @@ import swaggerUi from "swagger-ui-express";
 import managerCron from './manager-cron';
 import swaggerDocument from './swagger.json'
 import { checkVersionAndUpdate } from './modules/routines/checkVersionAndUpdate';
-import { EMetaTableValues } from './modules/wfo/enumerators/types';
-import { wfoRepository } from './modules/wfo/repositories';
 import { router } from './routes';
 
 const app = express();
