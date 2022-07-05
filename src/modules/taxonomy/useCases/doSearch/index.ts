@@ -1,4 +1,4 @@
-import { wfoRepository } from 'src/modules/wfo/repositories';
+import { wfoRepository } from '../../../wfo/repositories';
 import { DoSearchController } from './doSearchController';
 import { DoSearchUseCase } from './doSearchUseCase';
 

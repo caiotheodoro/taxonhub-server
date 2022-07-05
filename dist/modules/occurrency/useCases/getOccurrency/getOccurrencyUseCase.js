@@ -17,12 +17,12 @@ const csv_parser_1 = __importDefault(require("csv-parser"));
 const fs_1 = __importDefault(require("fs"));
 const get_stream_1 = __importDefault(require("get-stream"));
 const objects_to_csv_1 = __importDefault(require("objects-to-csv"));
-const constants_1 = require("src/modules/config/constants");
-const OccurrencyException_1 = require("src/modules/exception/OccurrencyException");
-const defaultResponse_1 = require("src/modules/http/defaultResponse");
-const gbifClient_1 = require("src/modules/http/gbifClient");
-const httpStatus_1 = require("src/modules/http/httpStatus");
-const types_1 = require("src/modules/model/enumerators/types");
+const constants_1 = require("../../../config/constants");
+const OccurrencyException_1 = require("../../../exception/OccurrencyException");
+const defaultResponse_1 = require("../../../http/defaultResponse");
+const gbifClient_1 = require("../../../http/gbifClient");
+const httpStatus_1 = require("../../../http/httpStatus");
+const types_1 = require("../../../model/enumerators/types");
 const headers = ['binomialName'];
 const sleep = (ms) => new Promise((r) => {
     setTimeout(r, ms);

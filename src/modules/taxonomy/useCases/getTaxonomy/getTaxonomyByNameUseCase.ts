@@ -1,9 +1,9 @@
 import puppeteer from 'puppeteer';
-import { TaxonomyException } from 'src/modules/exception/TaxonomyException';
-import { DefaultResponse } from 'src/modules/http/defaultResponse';
-import { EHttpStatuses } from 'src/modules/http/httpStatus';
-import { EDataset, ETaxonomyName } from 'src/modules/model/enumerators/types';
-import { TaxonomyModel } from 'src/modules/model/Taxonomy';
+import { TaxonomyException } from '../../../exception/TaxonomyException';
+import { DefaultResponse } from '../../../http/defaultResponse';
+import { EHttpStatuses } from '../../../http/httpStatus';
+import { EDataset, ETaxonomyName } from '../../../model/enumerators/types';
+import { TaxonomyModel } from '../../../model/Taxonomy';
 
 import { TaxonomyRepository } from '../../repositories/implementations/TaxonomyRepository';
 

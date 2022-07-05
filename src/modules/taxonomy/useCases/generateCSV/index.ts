@@ -1,4 +1,4 @@
-import { wfoRepository } from 'src/modules/wfo/repositories';
+import { wfoRepository } from '../../../wfo/repositories';
 
 import { getTaxonomyByNameUseCase } from '../getTaxonomy';
 import { GenerateCSVController } from './generateCSVController';

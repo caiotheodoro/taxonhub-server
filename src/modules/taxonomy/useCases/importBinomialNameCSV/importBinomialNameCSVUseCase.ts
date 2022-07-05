@@ -1,8 +1,8 @@
 import csvParser from 'csv-parser';
 import fs from 'fs';
-import { FileException } from 'src/modules/exception/FileException';
-import { DefaultResponse } from 'src/modules/http/defaultResponse';
-import { EHttpStatuses } from 'src/modules/http/httpStatus';
+import { FileException } from '../../../exception/FileException';
+import { DefaultResponse } from '../../../http/defaultResponse';
+import { EHttpStatuses } from '../../../http/httpStatus';
 
 interface IBinomialName {
     BinomialName: string;

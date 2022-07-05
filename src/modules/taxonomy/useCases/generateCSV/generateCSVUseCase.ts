@@ -2,12 +2,12 @@ import csvParser from 'csv-parser';
 import fs from 'fs';
 import getStream from 'get-stream';
 import ObjectsFromCsv from 'objects-to-csv';
-import { FILES_FOLDER } from 'src/modules/config/constants';
-import { DefaultResponse } from 'src/modules/http/defaultResponse';
-import { EHttpStatuses } from 'src/modules/http/httpStatus';
-import { TaxonomyModel } from 'src/modules/model/Taxonomy';
-import { EMetaTableValues } from 'src/modules/wfo/enumerators/types';
-import { WfoRepository } from 'src/modules/wfo/repositories/implementations/WfoRepository';
+import { FILES_FOLDER } from '../../../config/constants';
+import { DefaultResponse } from '../../../http/defaultResponse';
+import { EHttpStatuses } from '../../../http/httpStatus';
+import { TaxonomyModel } from '../../../model/Taxonomy';
+import { EMetaTableValues } from '../../../wfo/enumerators/types';
+import { WfoRepository } from '../../../wfo/repositories/implementations/WfoRepository';
 
 import { GetTaxonomyByNameUseCase } from '../getTaxonomy/getTaxonomyByNameUseCase';
 

@@ -1,5 +1,5 @@
 import { meta, PrismaClient } from '@prisma/client';
-import { IRecord } from 'src/modules/model/WFORecord';
+import { IRecord } from '../../../model/WFORecord';
 
 import { EMetaTableKeys, EMetaTableValues } from '../../enumerators/types';
 import { IWfoRepository } from '../IWfoRepository';

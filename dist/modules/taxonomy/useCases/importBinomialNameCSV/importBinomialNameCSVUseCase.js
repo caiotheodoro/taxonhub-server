@@ -15,9 +15,9 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.ImportBinomialNameCSVUseCase = void 0;
 const csv_parser_1 = __importDefault(require("csv-parser"));
 const fs_1 = __importDefault(require("fs"));
-const FileException_1 = require("src/modules/exception/FileException");
-const defaultResponse_1 = require("src/modules/http/defaultResponse");
-const httpStatus_1 = require("src/modules/http/httpStatus");
+const FileException_1 = require("../../../exception/FileException");
+const defaultResponse_1 = require("../../../http/defaultResponse");
+const httpStatus_1 = require("../../../http/httpStatus");
 class ImportBinomialNameCSVUseCase {
     execute(file) {
         return __awaiter(this, void 0, void 0, function* () {

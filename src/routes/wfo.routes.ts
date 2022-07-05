@@ -1,6 +1,6 @@
 import { Router } from 'express';
-import { getDatabaseStatusController } from 'src/modules/wfo/useCases/getDatabaseStatus';
-import { getVersionController } from 'src/modules/wfo/useCases/getVersion';
+import { getDatabaseStatusController } from '../../../wfo/useCases/getDatabaseStatus';
+import { getVersionController } from '../../../wfo/useCases/getVersion';
 
 const wfoRoutes = Router();
 

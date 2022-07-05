@@ -1,6 +1,6 @@
 import puppeteer from 'puppeteer';
-import { DefaultResponse } from 'src/modules/http/defaultResponse';
-import { EHttpStatuses } from 'src/modules/http/httpStatus';
+import { DefaultResponse } from '../../../http/defaultResponse';
+import { EHttpStatuses } from '../../../http/httpStatus';
 
 import { WfoRepository } from '../../repositories/implementations/WfoRepository';
 import { IVersionData } from './types';

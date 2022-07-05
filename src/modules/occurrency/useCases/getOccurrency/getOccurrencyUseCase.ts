@@ -2,12 +2,12 @@ import csvParser from 'csv-parser';
 import fs from 'fs';
 import getStream from 'get-stream';
 import ObjectsFromCsv from 'objects-to-csv';
-import { FILES_FOLDER } from 'src/modules/config/constants';
-import { OccurrencyException } from 'src/modules/exception/OccurrencyException';
-import { DefaultResponse } from 'src/modules/http/defaultResponse';
-import { GBIF_OCCURENCE_API } from 'src/modules/http/gbifClient';
-import { EHttpStatuses } from 'src/modules/http/httpStatus';
-import { EDataset } from 'src/modules/model/enumerators/types';
+import { FILES_FOLDER } from '../../../config/constants';
+import { OccurrencyException } from '../../../exception/OccurrencyException';
+import { DefaultResponse } from '../../../http/defaultResponse';
+import { GBIF_OCCURENCE_API } from '../../../http/gbifClient';
+import { EHttpStatuses } from '../../../http/httpStatus';
+import { EDataset } from '../../../model/enumerators/types';
 
 const headers = ['binomialName'];
 

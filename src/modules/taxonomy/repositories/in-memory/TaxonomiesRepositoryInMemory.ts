@@ -1,5 +1,5 @@
-import { IRecord } from "src/modules/model/WFORecord";
-import { WfoRepositoryInMemory } from "src/modules/wfo/repositories/in-memory/WfoRepositoryInMemory";
+import { IRecord } from "../../../model/WFORecord";
+import { WfoRepositoryInMemory } from "../../../wfo/repositories/in-memory/WfoRepositoryInMemory";
 import { ITaxonomyRepository } from "../ITaxonomyRepository";
 
 class TaxonomiesRepositoryInMemory implements ITaxonomyRepository {

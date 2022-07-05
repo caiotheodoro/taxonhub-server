@@ -1,6 +1,6 @@
 import csvParser from 'csv-parser';
 import fs from 'fs';
-import { IRecord } from 'src/modules/model/WFORecord';
+import { IRecord } from '../../../model/WFORecord';
 
 import { pathToDataFile } from '../../constants';
 import { EMetaTableValues } from '../../enumerators/types';

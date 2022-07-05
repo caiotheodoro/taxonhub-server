@@ -14,8 +14,8 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.GetVersionUseCase = void 0;
 const puppeteer_1 = __importDefault(require("puppeteer"));
-const defaultResponse_1 = require("src/modules/http/defaultResponse");
-const httpStatus_1 = require("src/modules/http/httpStatus");
+const defaultResponse_1 = require("../../../http/defaultResponse");
+const httpStatus_1 = require("../../../http/httpStatus");
 class GetVersionUseCase {
     constructor(wfoRepository) {
         this.wfoRepository = wfoRepository;

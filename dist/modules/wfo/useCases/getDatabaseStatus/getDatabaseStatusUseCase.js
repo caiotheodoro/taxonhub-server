@@ -10,8 +10,8 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.GetDatabaseStatusUseCase = void 0;
-const defaultResponse_1 = require("src/modules/http/defaultResponse");
-const httpStatus_1 = require("src/modules/http/httpStatus");
+const defaultResponse_1 = require("../../../http/defaultResponse");
+const httpStatus_1 = require("../../../http/httpStatus");
 class GetDatabaseStatusUseCase {
     constructor(wfoRepository) {
         this.wfoRepository = wfoRepository;
