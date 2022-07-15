@@ -1,4 +1,4 @@
-import { IRecord } from '../../../model/WFORecord';
+import { IRecord } from '../../model/WFORecord';
 
 interface ITaxonomyRepository {
     getRecordByName(scientificName: string): Promise<IRecord>;

@@ -1,6 +1,6 @@
 import { Router } from 'express';
-import { getOccurrencyController } from '../../../occurrency/useCases/getOccurrency';
-import { FILES_FOLDER } from '../../../config/constants';
+import { getOccurrencyController } from '../modules/occurrency/useCases/getOccurrency';
+import { FILES_FOLDER } from '../modules/config/constants';
 const ocurrencyRoutes = Router();
 
 ocurrencyRoutes.get('/generatecsv', (req, res) => {
